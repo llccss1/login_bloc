@@ -8,6 +8,8 @@ class LoginScreen extends StatelessWidget {
         children: [
           emailField(),
           passwordField(),
+          Container(margin:EdgeInsets.only(top: 25.0)),
+          summitButton(),
         ],
       ),
     );
@@ -30,6 +32,14 @@ class LoginScreen extends StatelessWidget {
         labelText: 'Password',
         hintText: 'password',
       )
+    );
+  }
+
+  Widget summitButton() {
+    return RaisedButton(
+      child:Text('Login'),
+      color: Colors.blue,
+      onPressed: () {},
     );
   }
 }
