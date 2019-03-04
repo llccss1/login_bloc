@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../blocs/bloc.dart';
 
 class LoginScreen extends StatelessWidget {
   Widget build(context) {
@@ -21,6 +22,7 @@ class LoginScreen extends StatelessWidget {
       decoration: InputDecoration(
         labelText: 'Email Adress',
         hintText: 'you@example.com',
+        //errorText: 'Invalid email!'
       )
     );
   }
