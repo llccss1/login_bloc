@@ -34,3 +34,6 @@ class Bloc extends Object with Validators {
     _password.close();
   }
 }
+
+//single global instance - carpeta 15 - video 1 y 2
+final bloc = Bloc();
