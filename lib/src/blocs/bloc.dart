@@ -36,4 +36,4 @@ class Bloc extends Object with Validators {
 }
 
 //single global instance - carpeta 15 - video 1 y 2
-final bloc = Bloc();
+//final bloc = Bloc();
